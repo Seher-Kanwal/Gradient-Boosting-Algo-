@@ -28,20 +28,25 @@ Gradient Boosting is known to be a powerful and versatile algorithm, and has bee
 
 - __Feature importance__
       
-      Gradient Boosting can provide a measure of feature importance, which can be useful for feature selection and understanding the underlying data.
+     Gradient Boosting can provide a measure of feature importance, which can be useful for feature selection and understanding the underlying data.
 
 - __Robustness to outliers__
       
-      Gradient Boosting is less sensitive to outliers compared to other algorithms, such as SVMs.
+     Gradient Boosting is less sensitive to outliers compared to other algorithms, such as SVMs.
 
 # Disadvantages of Gradient Boosting:
 
-Computationally expensive: Gradient Boosting can be computationally expensive, especially if a large number of weak learners are used or if the dataset is large.
+- __Computationally expensive__
+    Gradient Boosting can be computationally expensive, especially if a large number of weak learners are used or if the dataset is large.
 
-Overfitting: Gradient Boosting is prone to overfitting, especially if the number of iterations or the complexity of the models is not properly tuned.
+- __Overfitting__
+   
+   Gradient Boosting is prone to overfitting, especially if the number of iterations or the complexity of the models is not properly tuned.
 
-Sensitive to hyperparameters: Gradient Boosting has several hyperparameters that need to be carefully tuned to achieve optimal performance, and selecting the right hyperparameters can be a difficult and time-consuming process.
+- __Sensitive to hyperparameters__
 
-Not well-suited for online learning: Gradient Boosting is not well-suited for online learning, as it requires retraining the entire model whenever new data becomes available.
+   Gradient Boosting has several hyperparameters that need to be carefully tuned to achieve optimal performance, and selecting the right hyperparameters can be a difficult and time-consuming process.
+
+- __Not well-suited for online learning__ Gradient Boosting is not well-suited for online learning, as it requires retraining the entire model whenever new data becomes available.
 
 Overall, Gradient Boosting is a powerful and flexible algorithm that can achieve high accuracy and handle a wide range of problems, but it requires careful tuning and can be computationally expensive and prone to overfitting.
